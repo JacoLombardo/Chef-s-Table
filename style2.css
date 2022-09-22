@@ -1,0 +1,58 @@
+/* General */
+body {
+    background-image: url(https://thumbs.dreamstime.com/z/vintage-kitchen-tools-pattern-cooking-seamless-kitchenware-equipment-light-blue-background-51644206.jpg);
+}
+
+/* Terms */
+.container {
+    display: flex;
+    border-radius: 5px;
+    background-color: #FEEECD;
+    padding: 20px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+/* Thank You */
+.p1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+input[type=button] {
+    background-color: #81C3BF;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #4b9b96;
+}
+
+.animation {
+    text-align: center;
+    font-weight: bold;
+    animation-name: thankyou;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes thankyou {
+    from {
+        font-size: 40px;
+    }
+
+    to {
+        font-size: 50px;
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}

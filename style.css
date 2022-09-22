@@ -1,0 +1,242 @@
+/* General */
+body {
+    background-image: url(https://thumbs.dreamstime.com/z/vintage-kitchen-tools-pattern-cooking-seamless-kitchenware-equipment-light-blue-background-51644206.jpg);
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    border-radius: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: #FEEECD;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4b9b96;
+}
+
+.active {
+    background-color: #4b9b96;
+}
+
+footer {
+    border-radius: 25px;
+    text-align: center;
+    padding: 3px;
+    background-color: #4b9b96;
+    color: #FEEECD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #e95950;
+    color: white;
+}
+
+/* Recipes */
+thead {
+    color: #FEEECD;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table.GeneratedTable {
+    width: 1503px;
+    background-color: #feeec9;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+}
+        
+table.GeneratedTable td,
+table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 6px;
+}
+        
+table.GeneratedTable thead {
+    background-color: #3a7875;
+}
+
+tr>td:last-child {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+.imgRecipes {
+    border-radius: 30px 30px 1px 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* Gallery */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.gallery {
+    margin: 5px;
+    width: 350px;
+}
+
+div.gallery:hover {
+    color: #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Newsletter */
+.subcontainer1{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px;
+    gap: 30px;
+}
+
+.subcontainer2{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px;
+    gap: 30px;
+    align-items: center;
+}
+
+.subcontainer2 div:nth-child(1),
+.subcontainer1 div:nth-child(1),
+.subcontainer1 div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+.subcontainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    gap: 20px;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: #FEEECD;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #81C3BF;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4b9b96;
+}
+
+/* Contact */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.container2{
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+.flex-container > div > p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

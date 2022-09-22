@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnKZTb6MLRdMrD-rJ121yTUdK3-rzPnVFvOw&usqp=CAU">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active" href="newsletter.html">Newsletter</a></li>
+        <li><a href="contact.html">Contact Info</a></li>
+    </nav>
+
+    <p class="subtitle">Register to the newsletter not to miss the upcoming recipes!</p>
+
+    <div id="form">
+        <form action="thankyou.html">
+    
+            <div class="subcontainer1">
+                <div><label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required></div>
+
+                <div><label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required></div>
+
+                <div><label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="nonbinary">Non-binary</option>
+                </select></div></div>
+
+            <div class="subcontainer2">
+                <div><label for="email">Email address</label>
+                <input type="text" placeholder="Your email address.." name="mail" required></div>
+
+                <div><label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="germany">Germany</option>
+                    <option value="poland">Poland</option>
+                    <option value="libanon">Libanon</option>
+                    <option value="italy">Italy</option>
+                    <option value="mexico">Mexico</option>
+                </select></div>
+
+                <div><label for="birthday">Date of birth:</label>
+                <input type="date" id="birthday" name="birthday"></div>
+            </div>
+
+            <div class="subcontainer3">
+                <div><p>Which types of cuisine do you like?</p>
+                <input type="checkbox" id="cuisine1" name="cuisine1" value="Italian">
+                <label for="cuisine1"> Italian</label><br>
+                <input type="checkbox" id="cuisine2" name="cuisine2" value="French">
+                <label for="cuisine2"> French</label><br>
+                <input type="checkbox" id="cuisine3" name="cuisine3" value="Chinese">
+                <label for="cuisine3"> Chinese</label><br>
+                <input type="checkbox" id="cuisine4" name="cuisine4" value="Thai">
+                <label for="cuisine4"> Thai</label><br>
+                <input type="checkbox" id="cuisine5" name="cuisine5" value="Israelian">
+                <label for="cuisine5"> Israelian</label><br><br></div>
+
+                <div><p>How often would you like to receive the newsletter?</p>
+                <input type="radio" id="weekly" name="how_often" value="Every week">
+                <label for="weekly">Every week</label><br>
+                <input type="radio" id="two_weeks" name="how_often" value="Every two weeks">
+                <label for="two_weeks">Every two weeks</label><br>
+                <input type="radio" id="monthly" name="how_often" value="Once a month">
+                <label for="monthly">Once a month</label><br><br></div>
+            </div>
+
+            <div><p>By clicking submit you agreee to the <a href="terms.html" target="_blank">Terms and Conditions.</a></p>
+        
+                <input type="submit" value="Submit" /></div>
+    
+        </form>
+    </div>
+    
+    <br><br>
+    <footer>
+        <div></div>
+        <div>
+            <p class="footer">"Good food is the foundation of genuine happiness." <br></p>
+            <p> Auguste Escoffier</p>
+        </div>
+        <div><a href="https://www.instagram.com/faibasta/" target="_blank" class="fa fa-instagram"></a></div>
+    </footer>
+</body>
+
+</html>
